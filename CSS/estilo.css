@@ -1,0 +1,370 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+
+.div-pai{
+    position: relative;
+    width: 100%;
+    height: 800px;
+    
+}
+
+h1{
+   margin-left: 100px;
+   font-family: fantasy;
+   word-spacing: 4px;
+   letter-spacing: 2px;
+   color: rgb(2, 2, 20);
+}
+
+.voce-achou{
+    position: absolute;
+    margin-left: 100px;
+    top: 28%;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    word-spacing: 6px;
+    letter-spacing: 7px;
+    color: rgb(2, 2, 20);
+}
+
+.agencia{
+    margin-left: 100px;
+    position: absolute;
+    top: 26%;
+    font-size: 55px;
+    font-family: fantasy;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    color: rgb(2, 2, 20);
+}
+
+.lorem{
+    width: 35%;
+    font-size: 12px;
+    font-family: sans-serif;
+    position: absolute;
+    margin-left: 100px;
+    text-align: justify;
+    top: 40%;
+}
+
+.link{
+    margin-left: 100px;
+    text-decoration: none;
+    color: white;
+    position: absolute;
+    top: 50%;
+    font-size: 12px;
+    font-family: sans-serif;
+    background: rgb(194, 7, 85);
+    padding: 15px;
+    border-radius: 3px;
+}
+
+.link:hover{
+    background: rgb(2, 2, 20);
+}
+
+.hero{
+    position: absolute;
+    width: 45%;
+    height: 65%;
+    left: 45%;
+    top: 2%;
+}
+
+.Fale{
+    position: absolute;
+    left: 80%;
+    top: -1%;
+    font-family: sans-serif;
+    color: white;
+    background: rgb(2, 2, 20);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 3px;
+    text-decoration: none;
+    
+}
+
+.Fale:hover{
+    background: rgb(194, 7, 85);
+}
+
+.serviços{
+    position: absolute;
+    left: 69%;
+    top: -0.8%;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+
+.serviços:hover{
+    border-top: 2px solid rgb(2, 2, 20);;
+}
+
+.sobre-nos{
+    position: absolute;
+    left: 58%;
+    top: -0.8%;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+
+.sobre-nos:hover{
+    border-top: 2px solid rgb(2, 2, 20);;
+}
+
+.home{
+    position: absolute;
+    left: 50%;
+    top: -0.8%;
+    font-family: sans-serif;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+}
+
+.home:hover{
+    border-top: 2px solid rgb(2, 2, 20);
+}
+
+.whats{
+    z-index: 1;
+    position: fixed;
+    left: 93.6%;
+    bottom: 0%;
+    width: 5%;
+    height: 15%;
+}
+
+.podemos{
+    position: absolute;
+    left: 27%;
+    top: 80%;
+    font-size: 35px;
+    font-family: fantasy;
+    word-spacing: 3px;
+}
+
+
+
+.quadro1{
+    position: absolute;
+    left: 2%;
+    top: 800px;
+    width: 28%;
+    height: 50%;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid rgb(194, 7, 85);
+
+}
+
+.pc{
+    position: absolute;
+    width: 18%;
+    left: 39%;
+    top: 5%;
+}
+
+.desen{
+    text-align: center;
+    margin-top: 30%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.conteudo1{
+    margin: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+}
+
+.conteudo1-oculto{
+    display: none;
+}
+
+.quadro1:hover .conteudo1{
+    display: none;
+}
+
+.quadro1:hover .conteudo1-oculto{
+    display: block;
+    margin: 10%;
+    font-size: 14px;
+}
+
+.quadro1:hover{
+    background: rgb(194, 7, 85);
+    position: absolute;
+    top: 808px;
+}
+
+.quadro1:hover .pc{
+    display: none;
+}
+
+.quadro2{
+    position: absolute;
+    left: 36%;
+    top: 800px;
+    width: 28%;
+    height: 50%;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid rgb(194, 7, 85);
+
+}
+
+.app{
+    text-align: center;
+    margin-top: 30%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.celular{
+    
+    position: absolute;
+    left: 37%;
+    width: 18%;
+    left: 39%;
+    top: 12px;
+}
+
+.conteudo2-oculto{
+    display: none;
+}
+
+.quadro2:hover{
+    background: rgb(194, 7, 85);
+    position: absolute;
+    top: 808px;
+}
+
+.quadro2:hover .celular{
+    display: none;
+}
+
+.conteudo2{
+    margin: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+}
+
+.quadro2:hover .conteudo2-oculto{
+    display: block;
+    margin: 10%;
+    font-size: 14px;
+}
+
+.quadro2:hover .conteudo2{
+    display: none;
+}
+
+.quadro3{
+    position: absolute;
+    left: 70%;
+    top: 800px;
+    width: 28%;
+    height: 50%;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid rgb(194, 7, 85);
+
+}
+
+.marketing-digital{
+    text-align: center;
+    margin-top: 30%;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.conteudo3{
+    margin: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 14px;
+}
+
+.marketing{
+
+    position: absolute;
+    left: 37%;
+    width: 18%;
+    left: 39%;
+    top: 12px;
+}
+
+.quadro3:hover{
+    background: rgb(194, 7, 85);
+    top: 808px;
+}
+
+.quadro3:hover .marketing{
+    display: none;
+}
+
+.conteudo3-oculto{
+    display: none;
+}
+
+.quadro3:hover .conteudo3{
+    display: none;
+}
+
+.quadro3:hover .conteudo3-oculto{
+    display: block;
+    margin: 10%;
+    font-size: 14px;
+}
+
+.rodape{
+    position: absolute;
+    top: 1200px;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(rgb(3, 3, 88), rgb(0, 0, 0));
+    border-top: 6px solid rgb(194, 7, 85);
+    
+}
+
+.final-fake{
+    text-align: center;
+    color: white;
+    font-family: fantasy;
+    margin: 70px;
+    font-size: 25px;
+}
+
+.descriçao{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    margin-top: -70px;
+    font-family: sans-serif;
+}
+
+.final{
+    text-align: center;
+    color: white;
+    margin-top: 120px;
+    font-family: sans-serif;
+    font-size: 11px;
+}
